@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg");
+  background-position: 0 250px;
+  height: 100vh;
+}
+
+.line {
+  margin-top: 30px;
+  background-color: rgba(184, 184, 184, 0.466);
+  width: 100%;
+  height: 0.8px;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  background-color: white;
+  color: #2d3248;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card__background {
+  width: 100%;
+  height: 150px;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-size: cover;
+}
+
+.card__avatar {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.card__avatar img {
+  border: 6px solid white;
+  border-radius: 50%;
+}
+
+.card__text {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.card__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__age {
+  margin-left: 5px;
+  font-weight: normal;
+  color: #969696;
+}
+
+.card__city {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #969696;
+}
+
+.card__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.card__top-stat {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card__bottom-stat {
+  margin-top: 5px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #969696;
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
